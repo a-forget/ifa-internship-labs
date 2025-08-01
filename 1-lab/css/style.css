@@ -1,0 +1,17 @@
+/* Set all images to take up 100% of their container */
+img {
+  width: 100%;
+}
+
+/* Make a div that has a width value */
+.image-container {
+  width: fit-content;
+}
+
+h1 {
+  text-align: center;
+}
+
+.h1-subtext {
+  display: block;
+}
