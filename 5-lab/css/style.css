@@ -1,0 +1,84 @@
+body {
+  background-color: #f1e9d2;
+}
+
+/* Headings and footer */
+h1,
+h2,
+h3,
+footer {
+  background-color: #dcc78d;
+  font-family: "Metamorphous", serif;
+  padding: 10px;
+  border: 5px solid #d2daf1;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: auto 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: "Quintessential", serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+/* Nav bar */
+nav {
+  font-family: "Quintessential", serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+/* Content */
+p,
+aside {
+  font-family: "Quintessential", serif;
+  font-size: 1.5rem;
+  line-height: 2.5;
+}
+
+aside {
+  color: red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Images */
+img {
+  width: 100%;
+}
+
+.image-container {
+  width: 25rem;
+}
+
+
+/* Hover effects */
+a:hover {
+  color: red;
+}
+
+aside:hover {
+  text-decoration: underline;
+  color: palevioletred;
+}
+
+/* Footer */
+footer {
+  text-align: right;
+}

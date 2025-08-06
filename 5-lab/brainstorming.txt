@@ -1,0 +1,40 @@
+++
+Idea: A blog-style book review website hoster and storefront where readers can read your thoughts and reviews, buy the books you recommend, or buy you books from your wish list
+++
+
+
+Imagine Your Bookstore: Spend a few minutes brainstorming details about your fictional bookstore. Consider:
+
+o Name: Come up with a creative and catchy name.
+
+    My Reads
+
+o Specialization: What kind of books does it sell? (e.g., new releases, used books, specific genres like sci-fi or mystery)
+
+    It sells books that I've either read or want to read
+
+o Atmosphere: What's the vibe of the store? (e.g., cozy and traditional, modern and minimalist, quirky and eclectic)
+
+    Cozy, traditional, and minimalist
+
+o Sections: What sections or features would it have? (e.g., new arrivals, staff picks, events calendar, online store)
+
+    - My Favourites
+    - Most Recommended
+    - My To-Read List
+    - My Wish List
+    - Genre-specific
+    - Subject-specific
+    - Bottom of the Barrel (BotB) picks
+
+
+Nav bar
+    - Home
+    - My Favourites
+    - Higest Recommendations
+    - More Recommendations
+        - Genre-specific lists
+        - Subject-specific lists
+    - My To-Read List
+    - My Wish List
+    - Bottom of the Barrel (BotB) picks
