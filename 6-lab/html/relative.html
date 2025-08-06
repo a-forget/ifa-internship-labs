@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>The Box Model</title>
+	<style type="text/css">
+		body{
+			width: 60%;
+			border: 5px dashed red;
+			margin: auto;
+		}
+	</style>
+
+	<link rel="stylesheet" href="../css/relative.css">
+</head>
+
+<body>
+	<p id="one">
+		The <span>width</span> and <span>height</span> properties set the width and height of the content box, which is the area in which the content of the box is displayed — this content includes both text content inside the box, and other boxes representing nested child elements.
+	</p>
+
+	<p id="two">
+		<span>Padding</span> refers to the inner margin of a CSS box — between the outer edge of the content box and the inner edge of the border.
+	</p>
+
+	<p id="three">
+		The <span>border</span> of a CSS box sits between the outer edge of the padding and the inner edge of the margin. By default the border has a size of 0 — making it invisible — but you can set the thickness, style and color of the border to make it appear.
+	</p>
+
+	<p id="four">
+		The <span>margin</span> surrounds a CSS box, and pushes up against other CSS boxes in the layout. It behaves rather like padding, but extending from the outer edge of the border.
+	</p>
+	<p id="five">
+		<img src="../images/box_model.png" alt="The Box Model Components">
+	</p>
+
+
+</body>
