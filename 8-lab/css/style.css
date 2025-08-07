@@ -1,0 +1,77 @@
+body {
+  background-color: #bbffea;
+  min-width: 800px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 75%;
+}
+
+/* Table starts here */
+caption {
+  text-align: left;
+}
+
+table {
+  border: 5px outset blue;
+  border-spacing: 0;
+  width: 100%;
+  font-size: 90%;
+  background-color: #f0c080;
+}
+
+thead,
+tfoot {
+  height: 40px;
+  background-color: #add8e6;
+}
+
+thead th {
+  padding: 5px;
+}
+
+tbody th {
+  text-align: left;
+}
+
+tbody tr {
+  height: 60px;
+}
+
+tbody td {
+  background-color: #ffffe0;
+}
+
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* Column classes */
+.firstCol {
+  width: 20%;
+}
+
+.secondCol {
+  width: 16%;
+}
+
+.thirdCol {
+  width: 16%;
+}
+
+.fourthCol {
+  width: 16%;
+}
+
+.fifthCol {
+  width: 16%;
+}
+
+.sixthCol {
+  width: 16%;
+}
