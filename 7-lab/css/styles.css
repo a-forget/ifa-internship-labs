@@ -1,0 +1,50 @@
+/* 
+ Aaron
+ Lab 7
+ August 8, 2025
+*/
+@charset "utf-8";
+
+html {
+  background-color: #f4af76;
+}
+
+body {
+  background-color: #fdedc9;
+}
+
+/* 
+html {background-color}
+seems to override
+main {background-color}
+*/
+
+/* Header and navs */
+.vertical {
+  background-color: #4f85cf;
+}
+
+.vertical ul li a {
+  color: white;
+}
+
+.horizontal ul li {
+  background-color: #080748;
+  text-align: center;
+}
+
+.horizontal ul li a {
+  color: white;
+}
+
+/* Sections */
+section p {
+  color: #4f85cf;
+}
+
+/* Footer */
+footer {
+  background-color: #1a66a0;
+  color: white;
+  text-align: center;
+}

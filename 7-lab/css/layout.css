@@ -1,0 +1,103 @@
+/* 
+ Aaron
+ Lab 7
+ August 8, 2025
+*/
+@charset "utf-8";
+body {
+  width: 80%;
+  min-width: 780px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header and navs */
+header img {
+  float: left;
+  width: 75%;
+  height: auto;
+}
+
+header nav {
+  float: left;
+  height: auto;
+}
+
+/* ::after pseudocode */
+header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.horizontal {
+  clear: left;
+}
+
+.horizontal ul li {
+  float: left;
+  width: 12.5%;
+  padding: 1%;
+}
+
+.vertical {
+  width: 25%;
+}
+
+.vertical li {
+  padding-left: 4%;
+  padding-bottom: 12.5%;
+  white-space: nowrap;
+}
+
+.vertical:nth-of-type(1) {
+  padding-top: 1%;
+}
+
+/* Sections */
+section {
+  float: left;
+  width: 25%;
+}
+
+section img {
+  float: left;
+  width: 100%;
+  padding-top: 10%;
+  padding-left: 15%;
+}
+
+section p {
+  clear: left;
+  padding: 5%;
+}
+
+/* Divisions */
+#leftAside {
+  clear: left;
+  float: left;
+  width: 50%;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+#leftAside p {
+  padding-bottom: 7%;
+}
+
+#rightAside {
+  float: right;
+  width: 50%;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+#rightAside p {
+  padding-bottom: 7%;
+}
+
+/* Footer */
+footer {
+  clear: right;
+  padding: 1%;
+}
