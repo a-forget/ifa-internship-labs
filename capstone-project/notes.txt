@@ -1,0 +1,194 @@
+Indigenous Friends Association
+IndigiTECH program, phase 2
+Web Development Internship
+Capstone Project
+
+        +++ CAPSTONE PROJECT +++
+
+        +++ OVERVIEW +++
+"Project idea: selling products or providing services?"
+- Providing services, perhaps selling some small merchandise
+
+
+"What kind of products/services?"
+- Multi-day nature hikes/treks/expeditions in remote areas
+
+
+"Provide (20 words min - 50 words max) a brief description"
+- Will include camping, hiking, trekking, kayaking, canoeing, and portaging in the remote wilderness, and provide many opportunities for stargazing, seeing the aurora borealis, and watching meteor showers far away from light pollution.
+
+1.
+"Your website must have a logo image and between 15-20 different images for products as each product must have its own image."
+
+5.a.
+"An introduction about the company and its products/services."
+- Aaron's Awesome Adventures is made up of a dedicated group of passionate people who share a love for adventure, nature, and the North. We believe there's an explorer in everyone that yearns for adventure and we are happy to get to bring that to you in the beautiful, untamed North!
+
+We offer a variety of guided camping, hiking, trekking, kayaking, canoeing, and star gazing tours across the Yukon, Alaska, British Columbia, and the Canadian Rockies. We operate year-round and have adventures tailored for each skill level and activity, lasting from one to twenty-one days in length.
+
+5.b.
+"A section displaying some featured products, such as products currently on sale, or products that are most purchased. At least five sample products must be displayed as a grid with their description and images."
+
+- Will use cards
+
+5.c.
+"A section containing few testimonials, quotes, or product reviews from happy customers."
+
+- 
+
+
+
+        +++ PAGES +++
+Required:
+        index.html
+        services.html / products.html
+        contact-us.html
+        subscribe.html
+
+        testimonials (use <blockquote> and/or <q>, for inline short quote)
+
+Possible additions:
+        about-us.html
+        faq.html
+        blog.html
+        booking.html
+
+Other:
+        itinerary
+        newsletter
+        directions
+        environmental conservatorship, etc.
+        join us
+        languages
+        our team
+        sitemap
+        sponsored/associated organizations
+        terms & conditions
+        privacy policy & statement
+
+
+
+        +++ SITE DESIGN +++
+Name: Aaron's Awesome Adventures
+
+Slogan: Your Adventure Awaits
+        Choose Your Own Adventure
+        The Wild North Awaits
+        Discover The Wild North
+        Know The North
+        It's Where You Belong
+        Be An Explorer
+        What's Life Without A Little Adventure?
+
+Design:
+        - Unique background image at top of each page, below header
+        - Nav bar:
+                - Home
+                   - Will be logo; large, and clickable
+                - Adventure
+                   - Drop-down sorted by type
+                - About Us
+                - Subscribe
+                - Contact Us
+
+Colours:
+Base:
+        Off-black (#232323)
+        Neutral blue/tan
+
+Text:
+        earth/soil brown instead of black
+        white
+        deep / dark greens
+        deep / dark blues
+
+Accents:
+        orange
+        vibrant green/red/blue/
+
+
+
+        +++ PAGE DESIGN +++
+Colours: earthy, natural, vibrant, lively, adventurous, rugged
+
+Design:
+        - Rugged, jagged, slopes, ridges, cliffs, elevations, mountains
+
+Cards:
+        - For each adventure/service
+        - Image of adventure
+        - Information lists name/title of adventure, season/time period, duration, distance, start and end points, difficulty level, cost per person displayed prominently
+        - "Read more" button
+   
+
+
+        +++ LOGO IDEAS +++
+Colours:
+        earth, natural, vibrant
+
+Features:
+        sun, mountain, river, land, forest, clouds
+
+Design:
+        - Three 'A' like mountains
+        - Two A's middle lines can be connected diagonally to simulate a river flowing through the mountains
+        - Last 'A' can be mountain with its middle line as a cloud
+
+
+
+        +++ BREAKPPOINTS +++
+Common website breakpoints typically include the following dimensions:
+
+"
+Extra Small Mobile (Portrait): 320px – 480px
+Small Mobile (Landscape): 481px – 600px
+Small Tablets (Portrait): 601px – 768px
+Large Tablets (Landscape): 769px – 1024px
+Small Desktops and Laptops: 1025px – 1280px
+Large Desktops and High-Resolution Screens: 1281px – 1440px
+Extra-Large Desktops: 1441px and up
+
+Listed below are the screen sizes that were most used in 2025.
+
+    1920×1080
+    360×800
+    390×844
+    393×873
+    1366×768
+    1536×864
+"
+
+Extra Extra Small
+Small mobile phones in portrait
+(320px to 480px)
+- Targets small smartphones in portrait mode.
+
+Extra Small
+Mobile portrait
+(480px to 576px)
+- Targets smartphones and small mobile devices in portrait mode.
+
+Small
+Tablet portrait
+(576px to 768px)
+- Includes larger smartphones and smaller tablets in portrait mode.
+
+Medium
+Large tablets
+(768px to 1024px)
+- Targets larger tablets and smaller desktop screens in landscape mode.
+
+Large
+Desktops
+(1024px to 1280px)
+- Targets standard desktop screens and larger laptops.
+
+Extra Large
+Large desktops
+(1280px - 1440px)
+- Large desktop monitors.
+
+Extra Extra Large
+Large widescreen desktops
+(≥1440px)
+- Widescreen displays.

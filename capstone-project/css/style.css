@@ -1,0 +1,288 @@
+/* 
+ Aaron
+ Capstone Project
+ August 22, 2025
+ Part 0: August 22, 2025
+ Part 1: August 22, 2025
+ Part 2: 
+ Part 3: 
+ Part 4: 
+ Part 5:
+*/
+@charset "utf-8";
+
+/* 
++++
+ALL PAGES
++++
+*/
+/* UNIVERSAL */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.7vh;
+}
+
+#intro p {
+  line-height: 1.5;
+  text-align: justify;
+  text-indent: 3.5vw;
+}
+
+/* Header and nav */
+.header-nav {
+}
+
+.header-nav ul {
+  border: 1px solid black;
+}
+
+.header-nav ul li a {
+  font-family: "Iansui", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 4vh;
+  text-align: center;
+  color: #251b06;
+  border: 1px solid black;
+}
+
+.header-nav ul li a:hover {
+
+}
+
+/* Footer */
+footer {
+  /* border: 1px solid red;
+  margin: auto; */
+}
+
+/* 
++++
+EMPTY
++++
+*/
+
+/* 
++++
+PAGE 1: capstone.html [index.html]
++++     [required]
+*/
+/* Header and nav */
+.site-title {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15vh;
+  text-align: center;
+  color: #251b06;
+}
+
+.page-title {
+  font-family: "Iansui", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 10vh;
+  text-align: center;
+  color: #1a7a42;
+}
+
+/* Main */
+/* Capitalize this with JS */
+h3 {
+  font-family: "Iansui", cursive;
+  font-weight: 600;
+  font-style: normal;
+  color: #1a7a42;
+  font-size: 4vh;
+}
+
+.details-question {
+  color: #1a7a42;
+  font-weight: 600;
+}
+
+dt {
+  font-size: 3vh;
+}
+
+.testimonial {
+
+}
+
+.testimonial q {
+  font-style: italic;
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vh;
+}
+
+.testimonial p {
+  text-align: right;
+}
+
+/* To change the colour of all the .svg files belonging to class "icon" to match the font colour */
+/* https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element/53336754#53336754 */
+/* https://codepen.io/sosuke/pen/Pjoqqp */
+.icon {
+  filter: invert(37%) sepia(17%) saturate(1825%) hue-rotate(92deg) brightness(97%) contrast(89%);
+}
+
+/* 
++++
+PAGE 2: services.html
++++     [or products.html required]
+*/
+/* Header and nav */
+
+/* Main */
+
+/* 
++++
+PAGE 3: products.html
++++     [or services.html required]
+*/
+/* Header and nav */
+
+/* Main */
+
+/* 
++++
+PAGE 4: contact-us.html
++++     [required]
+*/
+/* Header and nav */
+
+/* Main */
+
+/* 
++++
+PAGE 5: subscribe.html
++++     [required]
+*/
+/* Header and nav */
+
+/* Main */
+
+/* 
++++
+MEDIA QUERIES
++++
+*/
+
+/* Wide & ultrawide desktop */
+@media (min-width: 1200px) and (max-width: 2500px) {
+  /* 
+ALL PAGES
+*/
+  /* body {
+    width: 95%;
+    margin: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li a {
+    margin: 1% auto;
+    width: fit-content;
+  } */
+
+  /* 
+PAGE 1: .html
+*/
+  /* Main */
+
+  /* 
+PAGE 2: .html
+*/
+  /* Main */
+}
+
+/* Desktop */
+@media (min-width: 1024px) and (max-width: 1200px) {
+  /* 
+ALL PAGES
+*/
+  /* body {
+    width: 90%;
+    margin: auto;
+  }
+
+  nav ul {
+    justify-content: space-between;
+  }
+
+  nav ul li a {
+    margin: auto;
+  } */
+
+  /* 
+PAGE 1: .html
+*/
+  /* Main */
+
+  /* 
+PAGE 2: .html
+*/
+  /* Main */
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* 
+ALL PAGES
+*/
+  /* body {
+    width: 90%;
+    margin: auto;
+  }
+
+  nav ul {
+    justify-content: space-between;
+  }
+
+  nav ul li a {
+    margin: auto;
+  } */
+
+  /* 
+PAGE 1: .html
+*/
+  /* Main */
+
+  /* 
+PAGE 2: .html
+*/
+  /* Main */
+}
+
+/* Mobile */
+@media (min-width: 400px) and (max-width: 768px) {
+  /* 
+ALL PAGES
+*/
+  /* body {
+    width: 90%;
+    margin: auto;
+  }
+
+  nav ul {
+    justify-content: space-between;
+  }
+
+  nav ul li a {
+    margin: auto;
+  } */
+
+  /* 
+PAGE 1: .html
+*/
+  /* Main */
+
+  /* 
+PAGE 2: .html
+*/
+  /* Main */
+}

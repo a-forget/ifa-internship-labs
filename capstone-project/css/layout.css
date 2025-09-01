@@ -1,0 +1,327 @@
+/* 
+ Aaron
+ Capstone Project
+ August 22, 2025
+ Part 0: August 22, 2025
+ Part 1: August 22, 2025
+ Part 2: 
+ Part 3: 
+ Part 4: 
+ Part 5:
+*/
+@charset "utf-8";
+
+/* 
++++
+ALL PAGES
++++
+*/
+/* UNIVERSAL */
+body {
+  min-width: 400px;
+  max-width: 1440px;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+#intro p {
+  width: 80%;
+  margin: auto;
+}
+
+/* Header and nav */
+.header-nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* justify-items: center;
+  align-items: center; */
+  width: 80%;
+  margin: 5vh auto 0 auto;
+}
+
+.header-nav ul li {
+  width: 100%;
+}
+
+.header-nav ul li a {
+  display: block;
+  padding: 5%;
+  margin: 5%;
+}
+
+/* Footer */
+footer {
+  /* width: 100%; */
+}
+
+/* Main */
+
+/* 
++++
+EMPTY
++++
+*/
+
+/* 
++++
+PAGE 1: capstone.html [index.html]
++++     [required]
+*/
+/* Header and nav */
+.site-title {
+  margin-top: 3%;
+}
+
+/* Main */
+.background-image {
+  width: 100%;
+  /* opacity: 90%; */
+}
+
+.page-title {
+  margin: 3vh auto;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin-top: 3%;
+}
+
+.testimonial {
+  width: fit-content;
+}
+
+.testimonial p {
+
+}
+
+/* Product Card */
+/* .card-image-container {
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.card-image-container img {
+  height: auto;
+  width: 400px;
+} */
+
+.adventure-card img {
+  float: left;
+  max-width: 600px;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+/* .adventures > * {
+  margin: 2%;
+} */
+
+.adventures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3vw;
+  margin: 3vw;
+}
+
+.adventure-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* margin: 4%; */
+}
+
+.adventure-card > * {
+  margin-top: 1%;
+}
+
+.adventure-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "leftCol rightCol";
+  margin-left: 5%;
+}
+
+.leftCol {
+  grid-area: leftCol;
+}
+
+.rightCol {
+  grid-area: rightCol;
+}
+
+.leftCol > *,
+.rightCol > * {
+  margin-top: 5%;
+}
+
+.icon {
+  width: 3vh;
+}
+
+/* 
++++
+PAGE 2: services.html
++++     [or products.html required]
+*/
+/* Header and nav */
+
+/* Main */
+
+/* 
++++
+PAGE 3: products.html
++++     [or services.html required]
+*/
+/* Header and nav */
+
+/* Main */
+
+/* 
++++
+PAGE 4: contact-us.html
++++     [required]
+*/
+/* Header and nav */
+
+/* Main */
+
+/* 
++++
+PAGE 5: subscribe.html
++++     [required]
+*/
+/* Header and nav */
+
+/* Main */
+
+/* 
++++
+MEDIA QUERIES
++++
+*/
+
+/* Wide & ultrawide desktop */
+@media (min-width: 1200px) and (max-width: 2500px) {
+  /* 
+ALL PAGES
+*/
+  /* body {
+    width: 95%;
+    margin: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li a {
+    margin: 1% auto;
+    width: fit-content;
+  } */
+
+  /* 
+PAGE 1: .html
+*/
+  /* Main */
+
+  /* 
+PAGE 2: .html
+*/
+  /* Main */
+}
+
+/* Desktop */
+@media (min-width: 1024px) and (max-width: 1200px) {
+  /* 
+ALL PAGES
+*/
+  /* body {
+    width: 90%;
+    margin: auto;
+  }
+
+  nav ul {
+    justify-content: space-between;
+  }
+
+  nav ul li a {
+    margin: auto;
+  } */
+
+  /* 
+PAGE 1: .html
+*/
+  /* Main */
+
+  /* 
+PAGE 2: .html
+*/
+  /* Main */
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* 
+ALL PAGES
+*/
+  /* body {
+    width: 90%;
+    margin: auto;
+  }
+
+  nav ul {
+    justify-content: space-between;
+  }
+
+  nav ul li a {
+    margin: auto;
+  } */
+
+  /* 
+PAGE 1: .html
+*/
+  /* Main */
+
+  /* 
+PAGE 2: .html
+*/
+  /* Main */
+}
+
+/* Mobile */
+@media (min-width: 400px) and (max-width: 768px) {
+  /* 
+ALL PAGES
+*/
+  /* body {
+    width: 90%;
+    margin: auto;
+  }
+
+  nav ul {
+    justify-content: space-between;
+  }
+
+  nav ul li a {
+    margin: auto;
+  } */
+
+  /* 
+PAGE 1: .html
+*/
+  /* Main */
+
+  /* 
+PAGE 2: .html
+*/
+  /* Main */
+}
