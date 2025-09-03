@@ -1,0 +1,70 @@
+/* 
+ Aaron
+ Lab 9
+ August 11, 2025
+*/
+@charset "utf-8";
+/* body {
+  width: 80%;
+  min-width: 780px;
+  max-width: 1200px;
+  margin: auto;
+} */
+
+/* Font families */
+@font-face {
+  font-family: "Chicago-FFVI";
+  src: url("../font/chicago-flf.ttf") format("truetype");
+}
+
+body {
+  font-family: "Chicago-FFVI", sans-serif;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Headings and navs */
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 10vh;
+}
+
+h2 {
+  font-size: 6vh;
+}
+
+h3 {
+  font-size: 4vh;
+}
+
+#header-nav {
+    font-size: 3.5vh;
+}
+
+/* Borders */
+
+.mp-game {
+  border: 3px red solid;
+}
+
+#header-nav {
+  border: red solid 3px;
+}
+
+/* #header-nav ul {
+} */
+
+#header-nav ul li {
+    border: 2px blue solid;
+}
+
+/* #header-nav ul li a {
+} */

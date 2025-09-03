@@ -1,0 +1,126 @@
+/* 
+ Aaron
+ Lab 11
+ August 14, 2025
+*/
+@charset "utf-8";
+
+/* 
++++
+ALL PAGES
++++
+*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+html,
+header,
+body,
+article {
+  background-color: whitesmoke;
+}
+
+/* Header and nav */
+
+.title {
+  font-size: 13vh;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 1rem ridge black;
+  font-weight: normal;
+}
+
+.header-nav {
+  background-color: white;
+}
+
+.header-nav ul, footer {
+  border: thick inset gold;
+}
+
+.header-nav a {
+  border-radius: 50%;
+  font-size: 4vh;
+  background-color: white;
+  color: black;
+  font-weight: normal;
+  border: medium outset gold;
+}
+
+.header-nav a:hover {
+  background-color: lightyellow;
+}
+
+footer {
+}
+
+/* 
++++
+COOKBOOK.HTML
++++
+*/
+
+.page-title {
+  font-size: 10vh;
+  text-align: center;
+  font-weight: normal;
+  border: 1px solid black;
+  background-color: white;
+}
+
+/* Recipe book grid */
+.recipe-book {
+  border: 0.5vw ridge black;
+  background-color: white;
+}
+
+.cuisine-food {
+  text-align: center;
+  font-size: 5vh;
+  border: 1px solid black;
+}
+
+/* Recipes */
+.featured-recipe {
+  border: 1px solid black;
+}
+
+.featured-recipe-name {
+  font-size: 3.5vh;
+  text-align: center;
+}
+
+.recipe-description {
+  font-size: 2.5vh;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.recipe-name-highlight {
+  font-size: 2.6vh;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* 
++++
+EMPTY
++++
+*/
+#page-structure {
+}
+#index-article {
+}
+
+.italian-pastas {
+}
+.indian-curries {
+}
+.mexican-tacos {
+}
+.japanese-sushi {
+}

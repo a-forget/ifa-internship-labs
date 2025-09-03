@@ -1,0 +1,116 @@
+/* 
+ Aaron
+ Lab 12
+ August 17, 2025
+*/
+@charset "utf-8";
+
+/* 
++++
+Part 1
++++
+*/
+
+/* a */
+body {
+  width: 80%;
+  min-width: 780px;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "intro main side1"
+    "intro main side2"
+    "footer footer footer";
+  gap: 3% 1%;
+}
+
+header {
+  grid-area: header;
+  padding-top: 3%;
+  margin-top: 1%;
+}
+
+#intro {
+  grid-area: intro;
+}
+
+#main {
+  grid-area: main;
+}
+
+#side1 {
+  grid-area: side1;
+}
+
+#side2 {
+  grid-area: side2;
+}
+
+/* b */
+header h1 {
+  width: 100%;
+  padding-bottom: 1vh;
+}
+
+/* c */
+nav {
+  grid-area: nav;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* justify-content: space-between; */
+  gap: 1%;
+  /* justify-items: left; */
+  /* margin: auto; */
+  /* width: 100%; */
+}
+
+nav ul li {
+  width: 100%;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1%;
+  width: 100%;
+}
+
+/* d */
+#intro p,
+#main p {
+  margin-top: 4%;
+}
+
+#side1 ul,
+#side2 ul {
+  width: auto;
+}
+
+#side2 li {
+
+}
+
+#side1 li {
+  list-style: inside decimal;
+}
+
+#intro p, #main p, #side1 p, #side2 p, footer p {
+    padding: 0 2%;
+}
+
+/* e */
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-area: footer;
+  gap: 1%;
+  margin: auto;
+}
+
+/* EMPTY */

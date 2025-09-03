@@ -1,0 +1,49 @@
+/* 
+ Aaron
+ Lab 14
+ August 25, 2025
+*/
+@charset "utf-8";
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightgoldenrodyellow;
+}
+
+h1 {
+  text-align: center;
+  border: dotted brown 0.5rem;
+  outline: dashed green 0.5rem;
+}
+
+nav ul li a {
+  border: solid 1vw green;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: yellow;
+}
+
+legend {
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 1.2rem;
+  border: black solid .1rem;
+}
+
+fieldset {
+  background-color: aliceblue;
+  border: none;
+}
+
+label {
+  background-color: aliceblue;
+  text-align: right;
+}
+
+#buttons {
+  background-color: inherit;
+  border: none;
+}

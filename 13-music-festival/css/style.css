@@ -1,0 +1,233 @@
+/* 
+ Aaron
+ Lab 13
+ August 19, 2025
+*/
+@charset "utf-8";
+
+/* Universal */
+body {
+  background-color: mintcream;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 
++++
+ALL PAGES
++++
+*/
+
+/* Header and nav */
+h1 {
+  text-align: center;
+  font-size: 15vh;
+  border: 8vh solid black;
+  border-top-right-radius: 30%;
+}
+
+nav ul li a {
+  color: black;
+  border: 1vh solid black;
+  letter-spacing: 20%;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: steelblue;
+  font-size: 3vh;
+  border: 1vh solid steelblue;
+}
+
+/* 
++++
+PAGE 1: music-festival.html
++++
+*/
+
+/* Main */
+#hero h4 {
+  text-align: center;
+  font-size: 4vh;
+  line-height: 1.5;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#hero h4 span {
+  font-style: italic;
+  font-size: 5.5vh;
+  color: rgb(192, 5, 5);
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 6vh;
+  text-decoration: underline double red;
+}
+
+#featured h3 {
+  text-align: center;
+  font-size: 4.5vh;
+  text-decoration: underline red;
+}
+
+/* Images */
+img {
+  border: 2.8vh groove grey;
+}
+
+/* Footer */
+#backToTop {
+  text-align: center;
+}
+
+#backToTop:hover {
+  color: rgb(75, 115, 248);
+}
+
+/* 
++++
+PAGE 2: about.html
++++
+*/
+
+/* Main */
+.leftColumn p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Indents only the second paragraph of .leftColumn  */
+.leftColumn p:nth-of-type(2) {
+  text-indent: 2.5vw;
+}
+
+/* Styles first letter of first paragraph in .leftColumn */
+.leftColumn p:nth-of-type(1)::first-letter {
+  float: left;
+  font-size: 2.5vw;
+  font-weight: 700;
+  margin-left: 2.5vw;
+}
+
+/* 
++++
+PAGE 3: info.html
++++
+*/
+
+/* 
++++
+Media Queries
++++
+*/
+/* 'Smaller' screens */
+
+/* 
+ALL PAGES
+*/
+@media (max-width: 480px) {
+  h1 {
+    font-size: 8vw;
+  }
+
+  nav ul li a {
+    text-align: center;
+    font-size: 5vw;
+  }
+
+  nav ul li a:hover {
+    color: steelblue;
+    font-size: 5.2vw;
+    border: 1vh solid steelblue;
+  }
+
+  footer p {
+    line-height: 2.5;
+  }
+
+  /* 
+PAGE 1: music-festival.html
+*/
+  /* Main */
+  .pageTitle {
+    font-size: 7vw;
+  }
+
+  .leftColumn p:nth-of-type(2) {
+    text-indent: 5vw;
+  }
+
+  .leftColumn p:nth-of-type(1)::first-letter {
+    float: left;
+    font-size: 5vw;
+    font-weight: 700;
+    margin-left: 5vw;
+  }
+}
+
+/* 'Small' screens */
+@media (min-width: 480px) and (max-width: 768px) {
+  h1 {
+    font-size: 8vw;
+  }
+
+  nav ul li a {
+    text-align: center;
+    font-size: 5vw;
+  }
+
+  nav ul li a:hover {
+    color: steelblue;
+    font-size: 5.2vw;
+    border: 1vh solid steelblue;
+  }
+
+  footer p {
+    line-height: 2.5;
+  }
+
+  /* 
+PAGE 1: music-festival.html
+*/
+  /* Main */
+  .pageTitle {
+    font-size: 7vh;
+  }
+
+  .leftColumn p:nth-of-type(2) {
+    text-indent: 5vw;
+  }
+
+  .leftColumn p:nth-of-type(1)::first-letter {
+    float: left;
+    font-size: 5vw;
+    font-weight: 700;
+    margin-left: 5vw;
+  }
+}
+
+/* 'Large' screens */
+@media (min-width: 768px) and (max-width: 1200px) {
+  /* body {
+    color: green;
+  } */
+
+  nav ul li a {
+  color: black;
+  border: 2vh solid black;
+  letter-spacing: 20%;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: steelblue;
+  border: 2vh solid steelblue;
+}
+}
+
+/* 'Larger' screens */
+@media (min-width: 1200px) and (max-width: 2500px) {
+  body {
+  }
+}

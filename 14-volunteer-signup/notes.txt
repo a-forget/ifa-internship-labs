@@ -1,0 +1,5 @@
+2. Plan your pages
+Home (index.html)
+    A welcome page with information about the organization and a call to action to volunteer.
+Sign-Up (signup.html)
+    A page with the volunteer sign-up form.
