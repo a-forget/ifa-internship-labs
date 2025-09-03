@@ -1,0 +1,47 @@
+/* 
+ Aaron
+ Lab 17
+ September 3, 2025
+*/
+@charset "utf-8";
+
+/* Universal */
+body {
+  min-width: 400px;
+  min-height: 200px;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  gap: 5%;
+  justify-items: center;
+}
+
+/* Header and nav */
+h1 {
+  margin: 3vh auto 5vh auto;
+}
+
+/* Footer */
+footer {
+  margin-top: 5vh;
+}
+
+/* Main */
+main {
+  display: grid;
+  justify-items: center;
+}
+
+#instructions {
+  margin-bottom: 1%;
+}
+
+input {
+  padding: 1%;
+}
+
+button {
+  min-width: fit-content;
+  width: 13vw;
+  padding: 1%;
+}

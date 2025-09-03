@@ -1,0 +1,30 @@
+Variables:
+- base fare 
+- distance traveled
+- rate per x unit (time and/or distance)
+- any additional fees
+
+Decomposition:
+- get input
+- calculate distance traveled
+- calculate time elapsed
+- add fees
+- return total
+
+Pattern recognition:
+- base fare
+- distance traveled
+- rate per x
+- additional fees
+
+[Lab instructions further specify "rate" is per distance, not time]
+Abstraction:
+Variables:
+- baseFare
+- distanceTraveled
+- ratePerKM
+- ratePerMinute
+- additionalFees
+
+Algorithm:
+totalFare = baseFare + additionalFees + (distanceTraveled * ratePerKm)
