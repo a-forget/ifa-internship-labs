@@ -4,12 +4,19 @@
  August 22, 2025
  Part 0: August 22, 2025
  Part 1: August 22, 2025
- Part 2: 
+ Part 2: September 5, 2025
  Part 3: 
  Part 4: 
  Part 5:
 */
 @charset "utf-8";
+
+/* 
+Colours: 
+#251b06 dark brown/black
+#1a7a42 mid green
+#3e3117 dark brown (soil)
+*/
 
 /* 
 +++
@@ -33,7 +40,8 @@ body {
 }
 
 .header-nav ul {
-  border: 1px solid black;
+  border: 0.2rem solid #251b06;
+  border-radius: 15px;
 }
 
 .header-nav ul li a {
@@ -42,18 +50,24 @@ body {
   font-style: normal;
   font-size: 4vh;
   text-align: center;
-  color: #251b06;
-  border: 1px solid black;
+  color: #3e3117;
+  border: 5px solid #1a7a42;
+  border-radius: 15px;
 }
 
 .header-nav ul li a:hover {
-
+  text-decoration: underline;
+  font-weight: 100;
 }
 
 /* Footer */
-footer {
-  /* border: 1px solid red;
-  margin: auto; */
+footer * {
+  color: white;
+  background: #251b06;
+}
+
+#footer-nav ul li a:hover {
+  text-decoration: underline;
 }
 
 /* 
@@ -74,7 +88,7 @@ PAGE 1: capstone.html [index.html]
   font-style: normal;
   font-size: 15vh;
   text-align: center;
-  color: #251b06;
+  color: #3e3117;
 }
 
 .page-title {
@@ -88,6 +102,10 @@ PAGE 1: capstone.html [index.html]
 
 /* Main */
 /* Capitalize this with JS */
+.background-image:hover {
+  opacity: 100%;
+}
+
 h3 {
   font-family: "Iansui", cursive;
   font-weight: 600;
@@ -106,7 +124,7 @@ dt {
 }
 
 .testimonial {
-
+  border: 0.1rem solid #251b06;
 }
 
 .testimonial q {
@@ -125,22 +143,57 @@ dt {
 /* https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element/53336754#53336754 */
 /* https://codepen.io/sosuke/pen/Pjoqqp */
 .icon {
-  filter: invert(37%) sepia(17%) saturate(1825%) hue-rotate(92deg) brightness(97%) contrast(89%);
+  /* filter: invert(37%) sepia(17%) saturate(1825%) hue-rotate(92deg)
+    brightness(97%) contrast(89%); */
+}
+
+.iconLucide {
+  color: black;
+  background-color: #1a7a42;
 }
 
 /* 
 +++
-PAGE 2: services.html
-+++     [or products.html required]
+PAGE 2: products.html
++++     [or services.html required]
 */
-/* Header and nav */
+/* Header */
 
 /* Main */
+/* Product Catalog table */
+#productCatalog {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#productCatalog th,
+#productCatalog td {
+  border: 1px solid black;
+}
+
+caption {
+  font-size: 5vh;
+  text-align: left;
+  text-decoration: underline;
+  border: 0.3rem dashed gold;
+}
+
+/* Product Catalog table body contents */
+.pcName {
+  text-align: center;
+}
+
+.productRow {
+  text-align: center;
+}
+
+.productCell {
+}
 
 /* 
 +++
-PAGE 3: products.html
-+++     [or services.html required]
+PAGE 3: services.html
++++     [or products.html required]
 */
 /* Header and nav */
 

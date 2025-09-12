@@ -5,7 +5,7 @@
 
  Part 0: August 22, 2025
  Part 1: August 22, 2025
- Part 2: 
+ Part 2: September 5, 2025
  Part 3: 
  Part 4: 
  Part 5: 
@@ -17,24 +17,293 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Capstone Project</title>
 
+    <!-- Font: Sedwick Ave Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font: Iansui -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Iansui&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font: Comic Relief -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Reset -->
-    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
 
     <!-- Layout -->
-    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="../css/layout.css" />
 
     <!-- Style -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
 
   <body>
+
+
     <!-- Header -->
-    <header></header>
+    <header>
+      <h1 class="site-title">Aaron's Awesome Adventures</h1>
+
+      <nav class="header-nav">
+        <ul>
+          <li><a href="../capstone.html">Home</a></li>
+          <li><a href="./products.html">Adventure</a></li>
+          <li><a href="./subscribe.html">Subscribe</a></li>
+          <li><a href="./contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 
+    ● <table>: The main container for the table.
+    ● <caption>: adds a title or brief description to a table.
+      (Must be placed immediately after the opening <table> tag and only one caption is allowed per web table)
+
+    ● <thead> (Table Head): Contains the header row(s) of the table.
+    ● <tbody> (Table Body): Contains the main data rows of the table.
+    ● <tfoot> (Table Foot): Contains footer row(s), often used for summaries or totals.
+
+    ● <tr>: Defines a row in the table.
+    ● <th>: Defines a header cell in a row.
+    ● The scope attribute on <th> elements clarifies the relationship between headers and data cells.
+    ● scope="row": The header applies to the row.
+    ● scope="col": The header applies to the column.
+    ● <td>: Defines a cell in a row (for data).
+    
+    <th rowspan="2">Student Id</th>
+    <td colspan="3">Marks</td>
+-->
+
+    <!-- 
+ID
+img
+  price
+name
+group size
+  description
+duration
+  dates
+skill level
+  physical demands
+child policy
+-->
 
     <!-- Main -->
-    <main></main>
+    <main>
+      <div class="background-image">
+        <img
+          src="../images/products-bg.jpg"
+          alt="Scenic shot of a river flowing over rocks through a forest with mountains in the mid- and foreground"
+        />
+      </div>
+
+      <h2 class="page-title">Product Catalog</h2>
+
+      <!-- Camping -->
+      <table id="productCatalog">
+        <caption>
+          Camping
+        </caption>
+        <!-- Table head -->
+        <thead>
+          <tr id="pcInfo">
+            <th scope="col">Adventure</th>
+            <th scope="col">ID</th>
+            <th scope="col">Description</th>
+            <th scope="col">Child Policy</th>
+            <th scope="col">Physical Demands</th>
+            <th scope="col">Dates</th>
+          </tr>
+        </thead>
+
+        <!-- Table body -->
+        <tbody>
+          <tr class="productRow">
+            <td>
+              <div class="productCell">
+                <h4 class="pcName">Really Cool Camping Trip #1</h4>
+                <img
+                  class="pcImg"
+                  src="../images/home-bg.jpg"
+                  alt="Placeholder"
+                />
+                <p class="pcPrice">Price: $1000/pp</p>
+                <p class="pcDuration">Duration: 14 days</p>
+                <p class="pcAges">Ages: all/any</p>
+                <p class="pcGroupSize">Group Size: 10-12</p>
+                <p class="pcActivities">Activities: <i data-lucide="menu"></i> C O N S</p>
+                <p class="pcSkillLevel">Skill Level: Expert</p>
+              </div>
+            </td>
+            <td>0101</td>
+            <td>
+              This is a really, really cool adventure that you really, really
+              won't want to miss!
+            </td>
+            <td>No kids</td>
+            <td>Hiking up steep slopes and stuff</td>
+            <td>09.08-09.26</td>
+          </tr>
+        </tbody>
+
+        <!-- Table foot -->
+        <!-- <tfoot>
+          <tr>
+            <td></td>
+          </tr>
+        </tfoot> -->
+      </table>
+
+      <!-- Kayaking -->
+      <table id="productCatalog">
+        <caption>
+          Kayaking
+        </caption>
+        <!-- Table head -->
+        <thead>
+          <tr id="pcInfo">
+            <th scope="col">Adventure</th>
+            <th scope="col">ID</th>
+            <th scope="col">Description</th>
+            <th scope="col">Child Policy</th>
+            <th scope="col">Physical Demands</th>
+            <th scope="col">Dates</th>
+          </tr>
+        </thead>
+
+        <!-- Table body -->
+        <tbody>
+          <tr class="productRow">
+            <td>
+              <div class="productCell">
+                <h4 class="pcName">Really Cool Kayaking Trip #1</h4>
+                <img
+                  class="pcImg"
+                  src="../images/kayaking1.jpg"
+                  alt="Placeholder"
+                />
+                <p class="pcPrice">Price: $1000/pp</p>
+                <p class="pcDuration">Duration: 14 days</p>
+                <p class="pcAges">Ages: all/any</p>
+                <p class="pcGroupSize">Group Size: 10-12</p>
+                <p class="pcActivities">Activities: I C O N S</p>
+                <p class="pcSkillLevel">Skill Level: Expert</p>
+              </div>
+            </td>
+            <td>0201</td>
+            <td>
+              This is a really, really cool adventure that you really, really
+              won't want to miss!
+            </td>
+            <td>No kids</td>
+            <td>Hiking up steep slopes and stuff</td>
+            <td>09.08-09.26</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
 
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+      <nav id="footer-nav">
+        <ul id="col1">
+          <li><a href="">About Us</a></li>
+          <li><a href="">Our Team</a></li>
+          <li><a href="">Join Our Team!</a></li>
+          <li><a href="">Volunteer</a></li>
+          <li><a href="">Vision, Mission, & Values</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Testimonials</a><a href="">Stewardship</a></li>
+        </ul>
+
+        <ul id="col2">
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Booking Terms & Conditions</a></li>
+          <li><a href="">Skill Levels</a></li>
+          <li><a href="">Community</a></li>
+          <li><a href="./products.html">Product Catalog</a></li>
+          <li><a href="./subscribe.html">Newsletter</a></li>
+          <li><a href="./contact-us.html">Contact Us</a></li>
+        </ul>
+
+        <ul id="col3">
+          <li><a href="">Accessibility</a></li>
+          <li><a href="">Accessible Adventures</a></li>
+          <li><a href="">Sitemap</a></li>
+          <li><a href="">Languages</a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+
+        <ul id="col4">
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Privacy Statement</a></li>
+          <li><a href=""></a></li>
+        </ul>
+
+        <ul id="col5">
+          <li>&copy; 2025 Aaron's Awesome Adventures</li>
+          <li>
+            <a href="https://www.facebook.com">
+              <img
+                src="../images/Facebook_Logo_Primary.png"
+                alt="Link to our Facebook page"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com">
+              <img
+                src="../images/Instagram_Glyph_Gradient.png"
+                alt="Link to our Instagram page"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <img
+                src="../images/twitter-bird-100-4.png"
+                alt="Link to our Twitter page"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com">
+              <img
+                src="../images/youtube-96.png"
+                alt="Link to our YouTube page"
+              />
+            </a>
+          </li>
+          <li>
+            <img src="../images/logo-base-nobg2.png" alt="">
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <!-- Lucide Icon Font -->
+    <!-- Production version -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Linking JS file -->
+    <script src="../javascript/script.js">
+    </script>
+
+    <!-- <i data-lucide="menu"></i> -->
   </body>
 </html>

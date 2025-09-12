@@ -35,9 +35,6 @@ We offer a variety of guided camping, hiking, trekking, kayaking, canoeing, and 
 "A section containing few testimonials, quotes, or product reviews from happy customers."
 
 - 
-
-
-
         +++ PAGES +++
 Required:
         index.html
@@ -54,18 +51,8 @@ Possible additions:
         booking.html
 
 Other:
-        itinerary
-        newsletter
-        directions
-        environmental conservatorship, etc.
-        join us
-        languages
-        our team
-        sitemap
-        sponsored/associated organizations
-        terms & conditions
-        privacy policy & statement
-
+        itineraries
+        (see footer)        
 
 
         +++ SITE DESIGN +++
@@ -82,7 +69,7 @@ Slogan: Your Adventure Awaits
 
 Design:
         - Unique background image at top of each page, below header
-        - Nav bar:
+        - Header nav:
                 - Home
                    - Will be logo; large, and clickable
                 - Adventure
@@ -90,6 +77,91 @@ Design:
                 - About Us
                 - Subscribe
                 - Contact Us
+        
+        Footer nav:
+                - About Us 
+                  - Our Team
+                  - Join Our Team! / careers
+                  - Volunteer
+                    - garbage pick-ups
+                    - tree planting
+                    - etc.
+                  - vision, mission, & values
+                  - blog
+                  - testimonials
+                  - environmental conservation, etc.
+                  
+                - (customers)
+                  - FAQ
+                  - Booking Terms & Conditions
+                  - Skill Level Rating
+                  - community
+                    - sponsored/associated organizations
+                  - newsletter
+                  - product catalog
+                  *- feedback
+                  - contact us
+                    - tel
+                      - +1 (888) 555-5555
+                      - toll-free in NA
+                    - mailto
+                      - aaron@aaronsawesomeadventures.ca
+                    - fax
+                      - +1 (888) 555-5555
+                    - directions
+                      - address
+                          PO Box 55555
+                          Whitehorse, YT
+                          Y5K 5N5, Canada
+
+                - (accessibility)
+                  - accessibility
+                  - accessible adventures
+                  - sitemap
+                  - languages
+                  
+
+                - (legal stuff)
+                  *- terms & conditions
+                  - privacy policy & statement
+
+                - (bottom)
+                  - copyright
+                  - social media icons
+                    - <i> and <span>
+                    or <a> and <img>
+                    - font awesome 5
+                    - font awesome 4
+                    - boostrap 3
+                    - google
+                    or downloaded .svg icon pack
+                    - facebook, instagram, youtube, twitter/x
+                  - (logo)
+
+        our team
+        join our team
+        volunteers
+        vision, mission, & values
+        terms & conditions
+        privacy policy & statement
+        sitemap
+        directions
+        address
+        newsletter
+        languages
+        blog
+        testimonials and feedback
+        accessibility
+        contact us
+        product catalog
+        Booking Terms & Conditions
+        social media icons
+        (logo)
+        faq
+        environmental conservatorship, etc.
+        Skill Level Rating
+        sponsored/associated organizations
+        
 
 Colours:
 Base:
@@ -135,6 +207,62 @@ Design:
         - Last 'A' can be mountain with its middle line as a cloud
 
 
+        +++ ICONS +++
+Lucide:
+https://lucide.dev/icons/
+
+- Camping
+        tent
+        tent-tree
+        flame-kindling
+
+- Hiking
+        backpack
+
+- Trekking
+
+- Kayaking
+        kayak
+
+- Canoeing
+
+- Stargazing
+        binoculars
+        camera
+        telescope
+
+- Clock
+        clock
+        hourglass
+
+- Calendar
+        calendar-days
+        calendar-check
+
+- Map / location
+        map-pin
+        map-pinned
+
+- Skill difficulty
+        activity
+        square-activity
+        heart-pulse
+        biceps-flexed
+        triangle-alert
+        mountain
+
+- Social media
+        facebook
+        instagram
+        twitter
+        youtube
+
+- Misc.
+        accessibility
+        credit-card
+        dollar-sign
+        menu
+        users
 
         +++ BREAKPPOINTS +++
 Common website breakpoints typically include the following dimensions:

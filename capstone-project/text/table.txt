@@ -1,0 +1,66 @@
+4. For each product, the table must show multiple pieces of information in separate columns. At least, the following information must be displayed:
+a. The product ID (this is a numeric value you assign to each product)
+b. The product name
+c. Product description
+d. A thumbnail image
+e. The price of the product
+f. Available quantity
+g. At least two additional columns that you find suitable for your products. For example, you may wish to display available sizes, colours, quantity sold, item rating, etc.
+
+    +++ NOTES +++
+Compromise:
+a. ID
+b. name
+c. description
+d. image
+e. price
+f. dates
+g. duration
+h. group size
+i. accomodations
+
+Accomodate:
+dates
+duration
+group size
+price
+extending your stay?
+map
+physical demands
+included
+not included
+child policy
+note
+
+Final:
+ID
+img
+  price
+  age range
+    all/any
+    7+
+    12+
+    16+
+  group size
+  skill level
+  duration
+name
+description
+dates
+physical demands
+child policy
+
+product ID:
+format: aabb
+
+a = adventure type
+    (01-06)
+    1 = camping
+    2 = hiking
+    3 = trekking
+    4 = kayaking
+    5 = canoeing
+    6 = stargazing
+b = unique adventure identifier
+    (01-04)
+

@@ -4,7 +4,7 @@
  August 22, 2025
  Part 0: August 22, 2025
  Part 1: August 22, 2025
- Part 2: 
+ Part 2: September 5, 2025
  Part 3: 
  Part 4: 
  Part 5:
@@ -56,8 +56,49 @@ ul {
 }
 
 /* Footer */
-footer {
-  /* width: 100%; */
+
+#footer-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "col1 col2 col3"
+    "col1 col2 col4"
+    "col5 col5 col5";
+}
+
+#footer-nav ul li a {
+  display: block;
+  padding: 1.5% 2%;
+  width: fit-content;
+}
+
+#col1 {
+  grid-area: col1;
+}
+
+#col2 {
+  grid-area: col2;
+}
+
+#col3 {
+  grid-area: col3;
+}
+
+#col4 {
+  grid-area: col4;
+}
+
+#col5 {
+  grid-area: col5;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  align-items: baseline;
+  margin-top: 1%;
+}
+
+#col5 img {
+  width: 35px;
+  height: 35px;
 }
 
 /* Main */
@@ -73,7 +114,7 @@ EMPTY
 PAGE 1: capstone.html [index.html]
 +++     [required]
 */
-/* Header and nav */
+/* Header */
 .site-title {
   margin-top: 3%;
 }
@@ -81,7 +122,7 @@ PAGE 1: capstone.html [index.html]
 /* Main */
 .background-image {
   width: 100%;
-  /* opacity: 90%; */
+  opacity: 20%;
 }
 
 .page-title {
@@ -96,11 +137,11 @@ PAGE 1: capstone.html [index.html]
 }
 
 .testimonial {
-  width: fit-content;
+  padding: 3%;
 }
 
 .testimonial p {
-
+  margin-top: 2vh;
 }
 
 /* Product Card */
@@ -169,19 +210,95 @@ PAGE 1: capstone.html [index.html]
 
 /* 
 +++
-PAGE 2: services.html
-+++     [or products.html required]
+PAGE 2: products.html
++++     [or services.html required]
 */
-/* Header and nav */
+/* Header */
 
 /* Main */
+/* Product Catalog table */
+#productCatalog {
+  width: 98%;
+  margin: 1%;
+}
+
+caption {
+  margin-bottom: 1%;
+  margin-left: 1%;
+  padding: 1%;
+  width: fit-content;
+}
+
+/* Product Catalog table head */
+#pcInfo th:nth-child(1) {
+  width: 30vw;
+}
+
+/* 
+.adventure-card img {
+  float: left;
+  max-width: 600px;
+  max-height: 350px;
+  object-fit: cover;
+}
+*/
+
+/* Product Catalog table body contents */
+.productCell {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "pcName pcName"
+    "pcImg pcImg"
+    "pcPrice pcGroupSize"
+    "pcAges pcActivities"
+    "pcDuration pcSkillLevel";
+    margin: 3% 1% 1% 1%;
+}
+
+.productCell p {
+  margin: 1%;
+}
+
+.pcName {
+  grid-area: pcName;
+  margin-bottom: 1%;
+}
+
+.pcImg {
+  grid-area: pcImg;
+}
+
+.pcPrice {
+  grid-area: pcPrice;
+}
+
+.pcDuration {
+  grid-area: pcDuration;
+}
+
+.pcAges {
+  grid-area: pcAges;
+}
+
+.pcGroupSize {
+  grid-area: pcGroupSize;
+}
+
+.pcActivities {
+  grid-area: pcActivities;
+}
+
+.pcSkillLevel {
+  grid-area: pcSkillLevel;
+}
 
 /* 
 +++
-PAGE 3: products.html
-+++     [or services.html required]
+PAGE 3: services.html
++++     [or products.html required]
 */
-/* Header and nav */
+/* Header */
 
 /* Main */
 
@@ -190,7 +307,7 @@ PAGE 3: products.html
 PAGE 4: contact-us.html
 +++     [required]
 */
-/* Header and nav */
+/* Header */
 
 /* Main */
 
@@ -199,7 +316,7 @@ PAGE 4: contact-us.html
 PAGE 5: subscribe.html
 +++     [required]
 */
-/* Header and nav */
+/* Header */
 
 /* Main */
 
