@@ -1,0 +1,41 @@
+    +++ Instructions +++
+"You're building a currency converter that not only converts USD to CAD but
+also provides helpful comparisons to previous exchange rates."
+
+
+    +++ Computational Thinking +++
+Decomposition:
+Breaking down the task into smaller steps (getting input,
+converting, calculating, comparing, displaying).
+
+- Get input for USD
+- Convert USD to CAD
+- Get values for previous exchange rates
+- Compare CAD value to previous rates
+- Display CAD result and comparisons
+
+
+Pattern Recognition:
+Recognizing the patterns in conversion and
+comparison.
+
+- [Not a lot of repetition involved here]
+
+
+Abstraction:
+Using variables to represent amounts, rates, and comparison
+results.
+
+- exRate = exchange rate
+- usd = input
+- cad = usd * exRate
+- compare1 = a previous exchange rate
+- compare2 = another previous exchange rate
+- calculate cad values at various exchange rates
+- display cad values and various exchanges rates, along with comparisons
+
+
+Algorithm Design:
+Creating a step-by-step plan for the logic.
+
+- 

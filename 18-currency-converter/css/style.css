@@ -1,0 +1,37 @@
+/* 
+ Aaron
+ Lab 18
+ September 5, 2025
+*/
+@charset "utf-8";
+
+/* Body */
+body {
+  font-family: "Courier New", Courier, monospace;
+
+  font-size: 4vh;
+  font-weight: 900;
+  background-color: #85bb65;
+  text-align: center;
+}
+
+button {
+    border-radius: 25px;
+}
+
+button:hover{
+    background-color: gold;
+}
+
+/* Header and nav */
+header {
+    border: 1vh goldenrod outset;
+}
+
+h1 {
+  font-size: 10vh;
+  color: gold;
+}
+
+/* Footer */
+

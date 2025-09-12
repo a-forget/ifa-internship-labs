@@ -1,0 +1,40 @@
+/* 
+ Aaron
+ Lab 18
+ September 5, 2025
+*/
+@charset "utf-8";
+
+/* Body */
+body {
+  width: 90%;
+  margin: auto;
+}
+
+body,
+main {
+  display: grid;
+  margin-top: 3%;
+  justify-items: center;
+}
+p, button, footer {
+    margin-top: 3%;
+}
+
+button {
+    width: fit-content;
+    padding: 1%;
+}
+
+/* Header and nav */
+header {
+}
+
+h1 {
+    padding: 1%;
+}
+
+/* Footer */
+footer {
+    justify-self: left;
+}
